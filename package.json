@@ -1,0 +1,40 @@
+{
+    "name": "smart-commerce-platform",
+    "version": "1.0.0",
+    "description": "A comprehensive e-commerce platform with voice bot, UPI simulation, and inventory management",
+    "main": "index.html",
+    "scripts": {
+      "start": "npx http-server . -p 3000 -o",
+      "dev": "npx live-server --port=3000 --open=/",
+      "build": "echo 'Build completed - static files ready for deployment'",
+      "test": "echo 'No tests specified'"
+    },
+    "keywords": [
+      "e-commerce",
+      "voice-bot",
+      "upi-payment",
+      "inventory-management",
+      "javascript",
+      "html5",
+      "css3"
+    ],
+    "author": "Smart Commerce Team",
+    "license": "MIT",
+    "devDependencies": {
+      "http-server": "^14.1.1",
+      "live-server": "^1.2.2"
+    },
+    "dependencies": {},
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/your-username/smart-commerce-platform.git"
+    },
+    "bugs": {
+      "url": "https://github.com/your-username/smart-commerce-platform/issues"
+    },
+    "homepage": "https://github.com/your-username/smart-commerce-platform#readme"
+  }
+  
